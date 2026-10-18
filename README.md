@@ -9,9 +9,11 @@ Veřejné datové soubory pro výuku a procvičování. Dostupné také přes [G
 | `testy-nanecisto.json` | Testy nanečisto |
 | `difficult_questions.json` | Index obtížných otázek |
 | `text_image_video_sort.json` | Rozdělení otázek podle typu média |
-| `traffic_signs.json` | Dopravní značky |
+| `traffic_signs.json` | Legacy data značek, zachovaná pro kompatibilitu starších aplikací |
 | `question-content.json` | Překlady otázek EN/RU/UK a české vysvětlivky |
 | `question-content-v1.json` | Verze a kontrolní údaje k překladům a vysvětlivkám |
+
+`traffic_signs.json` je starší datový zdroj. Nové řešení značek má data přímo v aplikaci a tento soubor nepotřebuje. Soubor ani jeho URL zatím neodstraňovat a nepřejmenovávat; zachování chrání starší instalace.
 
 ## Aktualizace
 
